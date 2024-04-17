@@ -1,0 +1,32 @@
+body{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#cards{
+    padding-top: 50px;
+    border-radius: 100px;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    text-align: center;
+}
+#cards img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+}
+body h2{
+    text-align: center;
+    color: red;
+}
+#cards button{
+    background-color: cadetblue;
+    font-weight: 800;
+    border-radius: 50px;
+}
